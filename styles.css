@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+nav ul{
+	float:right;
+}
+nav ul li{
+	list-style:none;
+	display:inline-block;
+	margin:10px;
+}
+nav li a{
+	text-decoration:none;
+	color:black;
+}
+#signin{
+	background-color:blue;
+	border:none;
+	color:white;
+	padding:8px 10px;
+	border-radius:3px;
+}
+main{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+}
+main img{
+	width:500px;
+}
+main input{
+	width:500px;
+	border:none;
+	padding:10px;
+	box-shadow:2px 2px 50px 1px gray;
+	border-radius:15px;
+}
+.btns button{
+	background-color:grey:
+	border:none;
+	padding:5px 15px;
+	margin:10px;
+}
+.left ul, .right ul{
+	list-style:none;
+	display:flex;
+}
+.left ul li, .right ul li{
+	padding:10px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
