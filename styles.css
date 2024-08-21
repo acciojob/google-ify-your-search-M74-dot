@@ -11,7 +11,7 @@ nav li a{
 	text-decoration:none;
 	color:black;
 }
-#signin{
+.sign_in{
 	background-color:blue;
 	border:none;
 	color:white;
@@ -42,16 +42,16 @@ main input{
 	padding:5px 15px;
 	margin:10px;
 }
-.left ul, .right ul{
+.l_ftr ul, .r_ftr ul{
 	list-style:none;
 	display:flex;
 }
-.left ul li, .right ul li{
+.l_ftr ul li, .r_ftr ul li{
 	padding:10px;
 }
-.left{
+.l_ftr{
 	float:left;
 }
-.right{
+.r_ftr{
 	float:right;
 }
